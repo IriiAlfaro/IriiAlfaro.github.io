@@ -1,0 +1,17 @@
+body {
+    @include font-size(14);
+    box-sizing: border-box;
+    font-family: $default-font;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
