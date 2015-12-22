@@ -28,6 +28,18 @@ module.exports = function (grunt) {
           }
         },
 
+        // Css
+        cssmin: {
+          dev: {
+            options: {
+              sourceMap: true,
+            },
+            files: {
+              'css/style.min.css': 'css/style.css',
+            }
+          }
+        },
+
         // Sass
         sass: {
           options: {
@@ -130,6 +142,7 @@ module.exports = function (grunt) {
     // $ grunt build
 
     grunt.registerTask('prod', [
+        'cssmin',
         'jshint',
         'uglify:prod',
         'sass:prod',
@@ -137,6 +150,7 @@ module.exports = function (grunt) {
     ]);
 
     grunt.registerTask('default', [
+        'cssmin',
         'imagemin',
         'newer:jshint',
         'uglify:dev',
