@@ -1,7 +1,7 @@
 body {
-    @include font-size(14);
+    @include font-size(18);
     box-sizing: border-box;
-    font-family: $default-font;
+    font-family: $contrast-font;
     margin: 0;
 }
 
@@ -14,4 +14,8 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
 }

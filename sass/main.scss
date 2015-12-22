@@ -1,6 +1,14 @@
-
 // Utils
 @import "partials/utils/mixins";
 @import "partials/utils/variables";
 
+// Patterns
+@import "partials/patterns/icons";
+@import "partials/patterns/buttons";
+
+// Partials
 @import "partials/base";
+
+// Components
+@import "partials/components/home";
+@import "partials/components/footer";

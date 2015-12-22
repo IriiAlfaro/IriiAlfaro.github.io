@@ -1,0 +1,33 @@
+footer {
+    color: #fff;
+    background-color: $secundary-color;
+    bottom: 0;
+    padding: 5px 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+
+    nav {
+        margin: 10px 0;
+
+        @media (min-width: 620px) {
+            display: inline-block;
+            text-align: left;
+            vertical-align: middle;
+        }
+        a {
+            padding: 0 25px;
+
+            @media (min-width: 620px) {
+                padding: 0 12px;
+            }
+        }
+    }
+    .email {
+        &:after {
+            color: $text-secundary-color;
+            content: "/";
+            padding: 0 5px;
+        }
+    }
+}

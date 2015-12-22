@@ -13,8 +13,10 @@ $default-font: "Cabin", Arial, Verdana, sans-serif;
 // Color
 
 $main-color: #EFC507; // Yellow
-$secundary-color: #DD1C1A; // Pink
-$text-color: #1B1B1E; // Black
+$secundary-color: #51D197; // Ligth Blue
+$text-main-color: #1B1B1E; // Black
+$text-secundary-color: #2F4F4F; // Darkslategrey
+$white: #fff;
 
 // Breakpoints
 // TL;DR, ems don't depend on the physical device size, whereas pixels do.

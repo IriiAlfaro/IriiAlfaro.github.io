@@ -10,23 +10,11 @@
 }
 
 // button mixin
-@mixin button($color, $hover-color, $hover-font-color) {
-  @include font-size(18);
-    //background-color: $hover-color;
-    //border: 2px solid $color;
-    //color: $hover-font-color;
-    padding: 15px 30px;
-
-    @include mquery("large") {
-        background-color: transparent;
-        border: 2px solid $color;
-        color: $color;
-    
-        &:hover {
-            background-color: $hover-color;
-            color: $hover-font-color;
-        }
-    }
+@mixin btn($white, $main-color) {
+    color: #fff;
+    border: 2px solid $main-color;
+    margin: 0 10px;
+    padding: 12px 18px;
 }
 
 //

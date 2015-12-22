@@ -1,0 +1,21 @@
+body {
+    background-image: url(../imgs/header.jpg);
+    background-repeat: no-repeat;
+    background-position: 69% 14%;
+}
+
+.wrapper {
+    text-align: center;
+
+    nav {
+        margin: 70px 0;
+
+        a {
+            @include btn($white, $main-color);
+        }
+    }
+}
+
+.logo {
+    padding-top: 200px;
+}
