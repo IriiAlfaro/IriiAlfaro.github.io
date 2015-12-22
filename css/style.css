@@ -1,2 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+body {
+  font-size: 14px;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  font-family: "Cabin", Arial, Verdana, sans-serif;
+  margin: 0; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
 
 /*# sourceMappingURL=style.css.map */
