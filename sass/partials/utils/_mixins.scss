@@ -11,10 +11,12 @@
 
 // button mixin
 @mixin btn($white, $main-color) {
+    @include font-size(16);
     color: #fff;
     border: 2px solid $main-color;
     margin: 0 10px;
     padding: 12px 18px;
+    text-transform: uppercase;
 }
 
 //

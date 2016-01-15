@@ -1,3 +1,7 @@
+.btn {
+  @include btn($white, $main-color);
+}
+
 [data-wipe] {  
   display: inline-block;
   position: relative;
